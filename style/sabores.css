@@ -58,9 +58,12 @@ body {
     background-color: var(--verde-pastel);
     color: var(--rosa-escuro);
     font-family: var(--font-style);
-    font-weight: 600;
     margin: 0;
     padding: 0;
+
+    p {
+        font-weight: 500;
+    }
 }
 
 #hero {
@@ -80,7 +83,7 @@ body {
 
     p {
         font-family: var(--font-style);
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: var(--rosa-alternativa);
         text-align: center;
         width: 900px;
@@ -108,7 +111,7 @@ body {
     }
 
     p {
-        font-size: 2em;
+        font-size: 1.5em;
         color: var(--rosa-alternativa);
         text-align: center;
         width: 800px;

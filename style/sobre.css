@@ -59,9 +59,12 @@ body {
     background-color: var(--verde-pastel);
     color: var(--rosa-escuro);
     font-family: var(--font-style);
-    font-weight: 600;
     margin: 0;
     padding: 0;
+
+    p {
+        font-weight: 500;
+    }
 }
 
 #hero {
@@ -90,7 +93,7 @@ body {
 
     p {
         font-family: var(--font-style);
-        font-size: 2em;
+        font-size: 1.5em;
         color: var(--rosa-alternativa);
         text-align: center;
         width: 900px;
@@ -99,7 +102,7 @@ body {
 
 p {
     font-family: var(--font-style);
-    font-size: 1.2rem;
+    font-size: 1.5em;
     color: var(--rosa-alternativa);
     text-align: center;
     margin-top: 20px;
@@ -120,7 +123,7 @@ h2 {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
-    height: 200px;
+    height: 250px;
     text-align: center;
 }
 
@@ -137,7 +140,7 @@ h2 {
 
 #historia {
     font-family: var(--font-style);
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     width: 1000px;
     margin: 20px auto;
@@ -185,4 +188,9 @@ footer {
     position: relative;
     bottom: 0;
     font-family: var(--font-style);
+
+    p {
+        font-size: 1em;
+        color: var(--rosa-escuro);
+    }
 }
