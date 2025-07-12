@@ -263,6 +263,7 @@ footer {
     header ul li {
         position: relative;
         top: 15px;
+        margin: 2px;
     }
 
     #logo {
