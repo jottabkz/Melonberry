@@ -1,0 +1,150 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Pacifico&family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --verde-pastel: #C2E0C6;
+    --rosa-morango: #F9A8C0;
+    --rosa-bebe: #FFDDE2;
+    --rosa-escuro: #EB669B;
+    --rosa-alternativa: #da80a4;
+    --bege-amarelo: #F4C58B;
+    --font-slogan: 'Pacifico', cursive;
+    --font-style: 'Quicksand', sans-serif;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--rosa-bebe);
+
+
+    font-family: 'Open Sans', sans-serif;
+
+    ul, li {
+        list-style: none;
+        padding: 0;
+        display: inline;
+        margin: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--rosa-escuro);
+        font-size: 1.2rem;
+        font-weight: 600;
+        transition: color 0.3s ease;
+        border-bottom: white solid 1px;
+    }
+
+    a:hover {
+        color: white;
+        border-bottom: solid 1px;
+    }
+}
+
+nav {
+    position: relative;
+    top: -30px;
+}
+
+body {
+    background-color: var(--verde-pastel);
+    color: var(--rosa-alternativa);
+    margin: 0;
+    padding: 0;
+}
+
+#hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+#slogan {
+    font-family: var(--font-slogan);
+    font-weight: 400;
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 20px;
+    color: var(--rosa-escuro);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    position: relative;
+    top: 35px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: var(--font-style);
+    font-size: 1.5em;
+    margin-top: -50px;
+    margin-bottom: 50px;
+
+    h2 {
+        color: var(--rosa-escuro);
+    }
+}
+
+#redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    h2 {
+        font-family: var(--font-style);
+        font-size: 1.5em;
+        color: var(--rosa-escuro);
+    }
+
+    img {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        transition: transform 0.3s ease;
+;
+    }
+}
+
+#whatsapp-float {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 999;
+    height: 80px;
+    width: 80px;
+}
+
+#whatsapp-float img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+#whatsapp-float img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: var(--rosa-bebe);
+    color: var(--rosa-escuro);
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    bottom: 0;
+    font-family: var(--font-style);
+}
