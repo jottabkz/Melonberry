@@ -154,61 +154,19 @@ footer {
 
 
 
-/* Responsividade para tablets */
-@media (max-width: 900px) {
-    
-  
 
-    #hero {
-        flex-direction: column;
-        height: auto;
-        padding: 40px 0;
-    }
-
-    #hero img {
-        height: 600px;
-    }
-
-    #slogan {
-        font-size: 2.5em;
-        margin-left: 0;
-        margin-top: 20px;
-    }
-
-    #content {
-        font-size: 1.2em;
-        margin-top: 0;
-        margin-bottom: 30px;
-        padding: 10px;
+/* Responsividade para telas até 768px */
+@media (max-width: 768px) {
+    header ul, header li {
         text-align: center;
     }
 
-    content h2 {
-        font-size: 1.5em;
-    }
-
-    #redes img {
-        width: 40px;
-        height: 40px;
-        margin: 8px;
-    }
-
-    #whatsapp-float {
-        bottom: 25px;
-        right: 25px;
-        height: 65px;
-        width: 65px;
-    }
-}
-
-/* Responsividade para celulares */
-@media (max-width: 750px) {
-    nav ul li{
-        margin: 3px;
+    nav ul li {
+        margin: 15px;
         font-size: 1em;
     }
 
-    nav a{
+    nav a {
         font-size: 1em;
     }
 
@@ -221,11 +179,11 @@ footer {
     #hero {
         flex-direction: column;
         height: auto;
-        padding: 20px 0;
+        padding: 30px 0;
     }
 
     #hero img {
-        height: 500px;
+        height: 600px;
         margin-bottom: 20px;
     }
 
@@ -236,7 +194,7 @@ footer {
     }
 
     #content {
-        font-size: 1em;
+        font-size: 1.5em;
         margin-top: 0;
         margin-bottom: 20px;
         padding: 5px;
@@ -244,8 +202,8 @@ footer {
     }
 
     #redes img {
-        width: 32px;
-        height: 32px;
+        width: 50px;
+        height: 50px;
         margin: 6px;
     }
 
@@ -254,5 +212,88 @@ footer {
         right: 15px;
         height: 50px;
         width: 50px;
+    }
+}
+
+/* Responsividade para telas até 600px */
+@media (max-width: 600px) {
+
+    nav ul li {
+        margin: 8px;
+        font-size: 0.9em;
+    }
+
+    #hero img {
+        height: 400px;
+    }
+
+    #slogan {
+        font-size: 2em;
+    }
+
+    #content {
+        font-size: 0.95em;
+        padding: 10px;
+    }
+
+    #redes img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #whatsapp-float {
+        bottom: 10px;
+        right: 10px;
+        height: 40px;
+        width: 40px;
+    }
+
+    footer {
+        font-size: 0.9em;
+        padding: 5px;
+    }
+}
+
+/* Responsividade para telas até 480px */
+@media (max-width: 480px) {
+    header {
+        padding: 5px;
+    }
+
+    header ul li {
+        position: relative;
+        top: 15px;
+    }
+
+    #logo {
+        height: 50px;
+        top: 20px;
+    }
+
+    #hero img {
+        height: 400px;
+    }
+
+    #slogan {
+        font-size: 2em;
+        margin-top: 10px;
+    }
+
+    #content {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    #redes img {
+        width: 30px;
+        height: 30px;
+        margin: 2px;
+    }
+
+    #whatsapp-float {
+        bottom: 5px;
+        right: 5px;
+        height: 30px;
+        width: 30px;
     }
 }
