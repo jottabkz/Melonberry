@@ -384,8 +384,8 @@ footer {
     #whatsapp-float {
         bottom: 8px;
         right: 8px;
-        height: 35px;
-        width: 35px;
+        height: 50px;
+        width: 50px;
     }
 
     h2 {
@@ -410,7 +410,7 @@ footer {
 
     header ul, header li {
         text-align: center;
-        margin: 3px;
+        margin: 2px;
         position: relative;
         top: 10px;
     }
@@ -420,8 +420,8 @@ footer {
     }
 
     #logo {
-        height: 35px;
-        top: 10px;
+        height: 45px;
+        top: 15px;
     }
 
     #hero img {
@@ -468,8 +468,8 @@ footer {
     #whatsapp-float {
         bottom: 3px;
         right: 3px;
-        height: 25px;
-        width: 25px;
+        height: 50px;
+        width: 50px;
     }
 
     h2 {

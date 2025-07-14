@@ -113,7 +113,6 @@ body {
             transition: transform 0.3s ease;
         }
     }
-
 }
 
 #formulario {
@@ -191,4 +190,129 @@ footer {
     position: relative;
     bottom: 0;
     font-family: var(--font-style);
+}
+
+
+
+
+/* Responsividade para telas até 768px */
+@media (max-width: 768px) {
+    header ul, header li {
+        margin: 10px;
+        text-align: center;
+    }
+
+    header a{
+        font-size: 1.2em;
+    }
+
+    #logo {
+        height: 60px;
+        top: 20px;
+    }
+
+    #hero h1 {
+        font-size: 2em;
+    }
+
+    #hero p {
+        width: 80vw;
+        font-size: 1em;
+    }
+
+    #msg h2 {
+        font-size: 1.7em;
+    }
+
+    #msg img {
+        width: 100px;
+    }
+
+    #formulario h2 {
+        font-size: 1.5em;
+    }
+
+    form {
+        width: 50vw;
+
+
+    }
+}
+
+/* Responsividade para telas até 600px */
+@media (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    #logo {
+        height: 40px;
+        top: 10px;
+    }
+
+    #hero h1 {
+        font-size: 1.5em;
+    }
+
+    #hero p {
+        width: 98vw;
+        font-size: 1em;
+    }
+
+    #msg h2 {
+        font-size: 1.1em;
+    }
+
+    #msg img {
+        width: 90px;
+    }
+
+    #formulario h2 {
+        font-size: 1em;
+    }
+
+    form {
+        width: 98vw;
+    }
+}
+
+/* Responsividade para telas até 480px */
+@media (max-width: 480px) {
+    header {
+        padding: 5px;
+    }
+
+    #logo {
+        height: 30px;
+        top: 5px;
+    }
+
+    #hero h1 {
+        font-size: 1em;
+    }
+
+    #hero p {
+        width: 99vw;
+        font-size: 0.9em;
+    }
+
+    #msg h2 {
+        font-size: 0.9em;
+    }
+
+    #msg img {
+        width: 60px;
+    }
+
+    #formulario h2 {
+        font-size: 0.9em;
+    }
+
+    form {
+        width: 99vw;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
 }

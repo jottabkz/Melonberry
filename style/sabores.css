@@ -14,6 +14,8 @@
     --font-style: 'Quicksand', sans-serif;
 }
 
+
+
 header {
     padding: 20px;
     text-align: center;
@@ -86,18 +88,23 @@ body {
         font-size: 1.5rem;
         color: var(--rosa-alternativa);
         text-align: center;
-        width: 900px;
+        width: 80%;
         margin-top: 20px;
     }
+}
+
+#cardapio {
+    width: 80%;
+    margin: auto;
 }
 
 .sabores {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin-bottom: 300px;
-    gap: 250px;
+    margin: auto;
+    gap: 100px;
 
     img {
         height: 800px;
@@ -114,14 +121,21 @@ body {
         font-size: 1.5em;
         color: var(--rosa-alternativa);
         text-align: center;
-        width: 800px;
+        width: 80%;
         margin-top: 20px;
     }
 }
 
-#mista div {
-    position: relative;
-    right: 150px;
+#morango {
+    margin-bottom: 150px;
+}
+
+#melona {
+    margin-bottom: 150px;
+}
+
+#mista {
+    margin-bottom: 150px;
 }
 
 
@@ -154,4 +168,171 @@ footer {
     position: relative;
     bottom: 0;
     font-family: var(--font-style);
+}
+
+
+
+/* Responsividade para telas até 768px */
+@media (max-width: 768px) {
+
+    header ul, header li {
+        text-align: center;
+        margin: 5px;
+    }
+    #hero p {
+        width: 80%;
+        font-size: 1.1em;
+    }
+
+    #cardapio {
+        width: 90%;
+    }
+
+    .sabores {
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 100px;
+        align-items: center;
+        align-content: center;
+    }
+
+    .sabores img {
+        height: 450px;
+        max-width: 90vw;
+    }
+
+    .sabores h2 {
+        font-size: 2em;
+    }
+
+    .sabores p {
+        width: 80vw;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    #whatsapp-float {
+        bottom: 15px;
+        right: 15px;
+        height: 50px;
+        width: 50px;
+    }
+}
+
+/* Responsividade para telas até 600px */
+@media (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    header ul, header li {
+        text-align: center;
+        margin: 5px;
+        position: relative;
+        top: 10px;
+    }
+
+    header a {
+        font-size: 1em;
+    }
+
+    #logo {
+        height: 50px;
+        top: 15px;
+    }
+    
+    #hero h1 {
+        font-size: 2em;
+    }
+
+    #hero p {
+        width: 80vw;
+        font-size: 1em;
+    }
+
+    #cardapio {
+        width: 80vw;
+    }
+    
+    .sabores img {
+        height: 350px;
+        max-width: 80vw;
+    }
+
+    .sabores h2 {
+        font-size: 2em;
+    }
+
+    .sabores p {
+        width: 80vw;
+        font-size: 1em;
+    }
+
+    #whatsapp-float {
+        bottom: 8px;
+        right: 12px;
+        height: 50px;
+        width: 50px;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
+}
+
+/* Responsividade para telas até 480px */
+@media (max-width: 480px) {
+    header {
+        padding: 5px;
+    }
+
+    header ul, header li {
+        text-align: center;
+        margin: 2px;
+        position: relative;
+        top: 10px;
+    }
+
+    header a {
+        font-size: 1em;
+    }
+
+    #logo {
+        height: 45px;
+        top: 15px;
+    }
+
+    #hero h1 {
+        font-size: 2em;
+    }
+
+    #hero p {
+        width: 80vw;
+        font-size: 1em;
+    }
+
+    .sabores img {
+        height: 300px;
+        max-width: 80vw;
+    }
+
+    .sabores h2 {
+        font-size: 1.8em;
+    }
+
+    .sabores p {
+        width: 80vw;
+        font-size: 0.9em;
+    }
+
+    #whatsapp-float {
+        bottom: 3px;
+        right: 3px;
+        height: 50px;
+        width: 50px;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
 }
