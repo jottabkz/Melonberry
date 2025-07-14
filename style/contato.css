@@ -200,10 +200,12 @@ footer {
     header ul, header li {
         margin: 10px;
         text-align: center;
+        position: relative;
+        top: 5px;
     }
 
     header a{
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     #logo {
@@ -245,22 +247,29 @@ footer {
         padding: 10px;
     }
 
+    header ul, header li {
+        text-align: center;
+        margin: 5px;
+        position: relative;
+        top: 10px;
+    }
+
     #logo {
         height: 40px;
         top: 10px;
     }
 
     #hero h1 {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
     #hero p {
-        width: 98vw;
+        width: 80vw;
         font-size: 1em;
     }
 
     #msg h2 {
-        font-size: 1.1em;
+        font-size: 2em;
     }
 
     #msg img {
@@ -268,36 +277,43 @@ footer {
     }
 
     #formulario h2 {
-        font-size: 1em;
+        font-size: 2em;
     }
 
     form {
-        width: 98vw;
+        width: 60vw;
     }
 }
 
 /* Responsividade para telas até 480px */
 @media (max-width: 480px) {
     header {
-        padding: 5px;
+        padding: 10px;
+
+    }
+
+    header ul, header li {
+        position: relative;
+        top: 8px;
+        margin: 3px;
     }
 
     #logo {
-        height: 30px;
-        top: 5px;
+        height: 45px;
+        top: 15px;
     }
 
     #hero h1 {
-        font-size: 1em;
+        font-size: 2em;
     }
 
     #hero p {
-        width: 99vw;
-        font-size: 0.9em;
+        width: 80vw;
+        font-size: 1em;
     }
 
     #msg h2 {
-        font-size: 0.9em;
+        font-size: 1.5em;
     }
 
     #msg img {
@@ -305,11 +321,11 @@ footer {
     }
 
     #formulario h2 {
-        font-size: 0.9em;
+        font-size: 1.5em;
     }
 
     form {
-        width: 99vw;
+        width: 60vw;
     }
 
     footer {

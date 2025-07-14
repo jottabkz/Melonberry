@@ -412,11 +412,11 @@ footer {
         text-align: center;
         margin: 2px;
         position: relative;
-        top: 10px;
+        top: 9px;
     }
 
     header a {
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     #logo {
