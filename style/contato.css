@@ -298,6 +298,10 @@ footer {
         margin: 3px;
     }
 
+    header a {
+        font-size: 0.9em;
+    }
+
     #logo {
         height: 45px;
         top: 15px;
